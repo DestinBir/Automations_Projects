@@ -17,7 +17,9 @@ center_align = Alignment(horizontal="center")
 
 required_fill = PatternFill(start_color="000000", end_color="000000", fill_type="solid")
 optional_fill = PatternFill(start_color="a6a6a6", end_color="a6a6a6", fill_type="solid")
-lines_fill = PatternFill(start_color="000000", end_color="000000", fill_type="solid")
+
+black_text = Font(color="000000")
+white_text = Font(color="ffffff")
 
 
 # Style the header
